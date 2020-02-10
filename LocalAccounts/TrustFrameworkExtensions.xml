@@ -1,64 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<TrustFrameworkPolicy 
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-  xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-  xmlns="http://schemas.microsoft.com/online/cpim/schemas/2013/06" 
-  PolicySchemaVersion="0.3.0.0" 
-  TenantId="idmcc.onmicrosoft.com" 
-  PolicyId="B2C_1A_TrustFrameworkExtensions" 
+<TrustFrameworkPolicy
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns="http://schemas.microsoft.com/online/cpim/schemas/2013/06"
+  PolicySchemaVersion="0.3.0.0"
+  TenantId="idmcc.onmicrosoft.com"
+  PolicyId="B2C_1A_TrustFrameworkExtensions"
   PublicPolicyUri="http://idmcc.onmicrosoft.com/B2C_1A_TrustFrameworkExtensions">
-  
+
   <BasePolicy>
     <TenantId>idmcc.onmicrosoft.com</TenantId>
     <PolicyId>B2C_1A_TrustFrameworkBase</PolicyId>
   </BasePolicy>
   <BuildingBlocks>
+
   </BuildingBlocks>
 
   <ClaimsProviders>
-
-
     <ClaimsProvider>
-  <DisplayName>REST APIs</DisplayName>
-  <TechnicalProfiles>
+      <DisplayName>Local Account SignIn</DisplayName>
+      <TechnicalProfiles>
+        <TechnicalProfile Id="login-NonInteractive">
+          <Metadata>
+            <Item Key="client_id">ProxyIdentityExperienceFrameworkAppId</Item>
+            <Item Key="IdTokenAudience">IdentityExperienceFrameworkAppId</Item>
+          </Metadata>
+          <InputClaims>
+            <InputClaim ClaimTypeReferenceId="client_id" DefaultValue="ProxyIdentityExperienceFrameworkAppId" />
+            <InputClaim ClaimTypeReferenceId="resource_id" PartnerClaimType="resource" DefaultValue="IdentityExperienceFrameworkAppId" />
+          </InputClaims>
+        </TechnicalProfile>
+      </TechnicalProfiles>
+    </ClaimsProvider>
+    <ClaimsProvider>
+      <DisplayName>REST APIs</DisplayName>
+      <TechnicalProfiles>
+        <!-- Custom Restful service -->
+        <TechnicalProfile Id="REST-API-SignUp">
+          <DisplayName>Validate user's input data</DisplayName>
+          <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+          <Metadata>
+            <Item Key="ServiceUrl">https://demoapicc.azurewebsites.net/api/identity/signup</Item>
+            <Item Key="SendClaimsIn">Body</Item>
+            <!-- Set AuthenticationType to Basic or ClientCertificate in production environments -->
+            <Item Key="AuthenticationType">None</Item>
+            <!-- REMOVE the following line in production environments -->
+            <Item Key="AllowInsecureAuthInProduction">true</Item>
+          </Metadata>
+          <InputClaims>
+            <InputClaim ClaimTypeReferenceId="email" />
+            <InputClaim ClaimTypeReferenceId="givenName" PartnerClaimType="firstName" />
+            <InputClaim ClaimTypeReferenceId="surname" PartnerClaimType="lastName" />
+            <InputClaim ClaimTypeReferenceId="idNumber" PartnerClaimType="idNumber" />
+          </InputClaims>
+          <OutputClaims>
+          </OutputClaims>
+          <UseTechnicalProfileForSessionManagement ReferenceId="SM-Noop" />
+        </TechnicalProfile>
 
-    <!-- Custom Restful service -->
-    <TechnicalProfile Id="REST-API-SignUp">
-      <DisplayName>Validate user's input data</DisplayName>
-      <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
-      <Metadata>
-        <Item Key="ServiceUrl">https://demoapicc.azurewebsites.net/api/identity/signup</Item>
-        <Item Key="SendClaimsIn">Body</Item>
-        <!-- Set AuthenticationType to Basic or ClientCertificate in production environments -->
-        <Item Key="AuthenticationType">None</Item>
-        <!-- REMOVE the following line in production environments -->
-        <Item Key="AllowInsecureAuthInProduction">true</Item>
-      </Metadata>
-      <InputClaims>
-        <InputClaim ClaimTypeReferenceId="email" />
-        <InputClaim ClaimTypeReferenceId="givenName" PartnerClaimType="firstName" />
-        <InputClaim ClaimTypeReferenceId="surname" PartnerClaimType="lastName" />
-		    <InputClaim ClaimTypeReferenceId="idNumber" PartnerClaimType="idNumber" />
-      </InputClaims>
-      <OutputClaims>
-      </OutputClaims>
-      <UseTechnicalProfileForSessionManagement ReferenceId="SM-Noop" />
-    </TechnicalProfile>
-
-    <!-- Change LocalAccountSignUpWithLogonEmail technical profile to support your validation technical profile -->
-    <TechnicalProfile Id="LocalAccountSignUpWithLogonEmail">
-      <OutputClaims>
-      </OutputClaims>
-      <ValidationTechnicalProfiles>
-        <ValidationTechnicalProfile ReferenceId="REST-API-SignUp" />
-      </ValidationTechnicalProfiles>
-    </TechnicalProfile>
-  </TechnicalProfiles>
-</ClaimsProvider>
+        <!-- Change LocalAccountSignUpWithLogonEmail technical profile to support your validation technical profile -->
+        <TechnicalProfile Id="LocalAccountSignUpWithLogonEmail">
+          <OutputClaims>
+          </OutputClaims>
+          <ValidationTechnicalProfiles>
+            <ValidationTechnicalProfile ReferenceId="REST-API-SignUp" />
+          </ValidationTechnicalProfiles>
+        </TechnicalProfile>
+      </TechnicalProfiles>
+    </ClaimsProvider>
 
   </ClaimsProviders>
 
-    <!--UserJourneys>
+  <!--UserJourneys>
 	
 	</UserJourneys-->
 
