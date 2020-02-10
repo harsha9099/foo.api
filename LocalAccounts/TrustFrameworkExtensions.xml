@@ -13,14 +13,7 @@
     <PolicyId>B2C_1A_TrustFrameworkBase</PolicyId>
   </BasePolicy>
   <BuildingBlocks>
-    <ClaimsSchema>
-        <ClaimType Id="loyaltyNumber">
-            <DisplayName>loyaltyNumber</DisplayName>
-            <DataType>string</DataType>
-            <UserHelpText>Customer loyalty number</UserHelpText>
-        </ClaimType>
-    </ClaimsSchema>
-   </BuildingBlocks>
+  </BuildingBlocks>
 
   <ClaimsProviders>
 
@@ -31,7 +24,7 @@
 
     <!-- Custom Restful service -->
     <TechnicalProfile Id="REST-API-SignUp">
-      <DisplayName>Validate user's input data and return loyaltyNumber claim</DisplayName>
+      <DisplayName>Validate user's input data</DisplayName>
       <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
       <Metadata>
         <Item Key="ServiceUrl">https://demoapicc.azurewebsites.net/api/identity/signup</Item>
@@ -45,10 +38,9 @@
         <InputClaim ClaimTypeReferenceId="email" />
         <InputClaim ClaimTypeReferenceId="givenName" PartnerClaimType="firstName" />
         <InputClaim ClaimTypeReferenceId="surname" PartnerClaimType="lastName" />
-		<InputClaim ClaimTypeReferenceId="idNumber" PartnerClaimType="idNumber" />
+		    <InputClaim ClaimTypeReferenceId="idNumber" PartnerClaimType="idNumber" />
       </InputClaims>
       <OutputClaims>
-        <OutputClaim ClaimTypeReferenceId="loyaltyNumber" PartnerClaimType="loyaltyNumber" />
       </OutputClaims>
       <UseTechnicalProfileForSessionManagement ReferenceId="SM-Noop" />
     </TechnicalProfile>
@@ -56,7 +48,6 @@
     <!-- Change LocalAccountSignUpWithLogonEmail technical profile to support your validation technical profile -->
     <TechnicalProfile Id="LocalAccountSignUpWithLogonEmail">
       <OutputClaims>
-        <OutputClaim ClaimTypeReferenceId="loyaltyNumber" PartnerClaimType="loyaltyNumber" />
       </OutputClaims>
       <ValidationTechnicalProfiles>
         <ValidationTechnicalProfile ReferenceId="REST-API-SignUp" />
