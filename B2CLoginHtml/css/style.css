@@ -222,8 +222,10 @@ body, html {font-family: 'Roboto', sans-serif;font-size: 15px;color: #333E48;ove
 
 /* MOBILE LAYOUT (PORTRAIT/320PX) 
 ----------------------------------------------- */
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 500px) {
 	
-	
-	
+	.login-form {margin-top: -150px;}
+	.login-card{padding:2em !important;}
+	.loginpage-caption{font-size:30px;}
+	.btncommon {padding: .6em 0.8em;font-size: 12px;}
 }
