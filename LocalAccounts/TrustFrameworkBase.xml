@@ -4,9 +4,9 @@
   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
   xmlns="http://schemas.microsoft.com/online/cpim/schemas/2013/06"
   PolicySchemaVersion="0.3.0.0"
-  TenantId="idmcc.onmicrosoft.com"
+  TenantId="yourtenant.onmicrosoft.com"
   PolicyId="B2C_1A_TrustFrameworkBase"
-  PublicPolicyUri="http://idmcc.onmicrosoft.com/B2C_1A_TrustFrameworkBase">
+  PublicPolicyUri="http://yourtenant.onmicrosoft.com/B2C_1A_TrustFrameworkBase">
 
   <BuildingBlocks>
     <ClaimsSchema>
@@ -175,19 +175,6 @@
         <UserHelpText>Your display name.</UserHelpText>
         <UserInputType>TextBox</UserInputType>
       </ClaimType>
-	  
-	   <ClaimType Id="idNumber">
-        <DisplayName>Id Number</DisplayName>
-        <DataType>string</DataType>
-        <DefaultPartnerClaimTypes>
-          <Protocol Name="OAuth2" PartnerClaimType="unique_name" />
-          <Protocol Name="OpenIdConnect" PartnerClaimType="idNumber" />
-          <Protocol Name="SAML2" PartnerClaimType="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/idnumber" />
-        </DefaultPartnerClaimTypes>
-        <UserHelpText>Your Id Number.</UserHelpText>
-        <UserInputType>TextBox</UserInputType>
-      </ClaimType>
-
 
       <ClaimType Id="email">
         <DisplayName>Email Address</DisplayName>
@@ -300,7 +287,6 @@
         <UserHelpText>Your surname (also known as family name or last name).</UserHelpText>
         <UserInputType>TextBox</UserInputType>
       </ClaimType>
-
 
     </ClaimsSchema>
 
@@ -666,7 +652,6 @@
             <OutputClaim ClaimTypeReferenceId="newUser" />
 
             <!-- Optional claims, to be collected from the user -->
-			<OutputClaim ClaimTypeReferenceId="idNumber" />
             <OutputClaim ClaimTypeReferenceId="displayName" />
             <OutputClaim ClaimTypeReferenceId="givenName" />
             <OutputClaim ClaimTypeReferenceId="surName" />
