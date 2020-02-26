@@ -29,11 +29,11 @@ body, html {font-family: 'Roboto', sans-serif;font-size: 15px;color: #333E48;ove
 .divider{display:none;}
 .create p{font-size:0;margin: 0;}
 #next{border-radius: 30px;font-size: 13px;padding: 0.65rem 1.25rem;text-transform: uppercase;letter-spacing: 1px;background: #0075C9;color: #fff;border: 0;}
-#createAccount1{border-radius: 30px;font-size: 13px;padding: 0.65rem 1.25rem;text-transform: uppercase;letter-spacing: 0px;background: #333E48;color: #fff;display: inline-block;}
-#createAccount1:hover , #next:hover {-webkit-box-shadow: 0 1px 3px rgba(0,0,0, 0.4);-moz-box-shadow: 0 1px 3px rgba(0,0,0, 0.4);box-shadow: 0 1px 3px rgba(0,0,0, 0.4);-webkit-transition: box-shadow 200ms;-moz-transition: box-shadow 200ms;-o-transition: box-shadow 200ms;transition: box-shadow 200ms;color:#fff;}
+#createAccount{border-radius: 30px;font-size: 13px;padding: 0.65rem 1.25rem;text-transform: uppercase;letter-spacing: 0px;background: #333E48;color: #fff;display: inline-block;}
+#createAccount:hover , #next:hover {-webkit-box-shadow: 0 1px 3px rgba(0,0,0, 0.4);-moz-box-shadow: 0 1px 3px rgba(0,0,0, 0.4);box-shadow: 0 1px 3px rgba(0,0,0, 0.4);-webkit-transition: box-shadow 200ms;-moz-transition: box-shadow 200ms;-o-transition: box-shadow 200ms;transition: box-shadow 200ms;color:#fff;}
 #next:focus{outline:0;}
 #api p[role="alert"] {color: #ff0101;margin: 0 0 4px;font-weight: 600;font-size: 14px;}
-.create{position: relative;top: -19px;left: 0;width: auto;margin-left: 100px;}
+.create{position: relative;top: -38px;left: 0;width: auto;margin-left: 100px;}
 .localAccount{position:relative;}
 .working {margin-bottom: 40px;}
 
@@ -48,7 +48,7 @@ body, html {font-family: 'Roboto', sans-serif;font-size: 15px;color: #333E48;ove
 .copyright-text{font-size: 12px;color: #9EA2A0;}
 .custom-container{max-width: 1300px;margin: 0 auto;padding: 0.8rem 1rem;}
 .divider{display:none;}
-#api .localAccount .create {display:none;}
+/*#api .localAccount .create {display:none;}*/
 #api .intro h2{font-size:0;}
 /* MOBILE LAYOUT (PORTRAIT/320PX) 
 ----------------------------------------------- */
@@ -57,7 +57,7 @@ body, html {font-family: 'Roboto', sans-serif;font-size: 15px;color: #333E48;ove
 }
 
 @media only screen and (max-width: 767px) {
-	#createAccount1 , #next{font-size: 13px;padding: 0.65rem 1rem;letter-spacing: 0px;}
+	#createAccount , #next{font-size: 13px;padding: 0.65rem 1rem;letter-spacing: 0px;}
 	.create{left: inherit;right: 0;margin-left: 0;text-align: right;}
 }
 @media only screen and (max-width: 500px) {
