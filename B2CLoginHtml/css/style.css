@@ -47,14 +47,9 @@ body, html {font-family: 'Roboto', sans-serif;font-size: 15px;color: #333E48;ove
 .footer{background: #E3E5E4;}
 .copyright-text{font-size: 12px;color: #9EA2A0;}
 .custom-container{max-width: 1300px;margin: 0 auto;padding: 0.8rem 1rem;}
-
-.divider, #forgotPassword{
-	display:none;
-}
-
-#api .localAccount .create {
-	display:none;
-}
+.divider{display:none;}
+#api .localAccount .create {display:none;}
+#api .intro h2{font-size:0;}
 /* MOBILE LAYOUT (PORTRAIT/320PX) 
 ----------------------------------------------- */
 @media only screen and (max-width: 980px) {
