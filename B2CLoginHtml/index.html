@@ -156,13 +156,15 @@
             bindEvents: function () {
                 $("#logonIdentifier,#password").off().on('blur', function () {
                     var id = this.id;
+					var value = this.value;
                     if (this.id === "logonIdentifier") {
                         id = "txtIdNumberB2cLoginPage";
                     }
                     else if (this.id === "password") {
+					    value = "****";
                         id = "txtPasswordB2cLoginPage";
                     }
-                    cc.saveTrackingLog('input', id, this.value);
+                    cc.saveTrackingLog('input', id, value);
                 });
                 $("#forgotPassword,#createAccount").off().on('click', function () {
                     var id = this.id;
@@ -175,7 +177,7 @@
                         id = "btnForgotPasswordB2cLoginPage";
 						href = decodeURIComponent(cc.getUrlParam('ccAppUrl')) + '/forgot';
                     }
-                    cc.saveTrackingLog('button', id, this.value);
+                    cc.saveTrackingLog('button', id, this.innerText);
 					window.location.href = href;
                 });
             },
