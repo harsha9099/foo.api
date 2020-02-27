@@ -139,8 +139,8 @@
 
         var cc = {
             init: function () {
-                $("#forgotPassword").attr('href', decodeURIComponent(cc.getUrlParam('ccAppUrl')) + '/forgot');
-                $("#createAccount").attr('href', decodeURIComponent(cc.getUrlParam('ccAppUrl')) + '/register');
+                $("#forgotPassword").attr('href', 'javascript:void(0)');
+                $("#createAccount").attr('href', 'javascript:void(0)');
                 cc.bindEvents();
                 cc.initAppInsight();
             },
@@ -164,19 +164,20 @@
                     }
                     cc.saveTrackingLog('input', id, this.value);
                 });
-                //$("#forgotPassword,#next,#createAccount").off().on('click', function () {
-                //    var id = this.id;
-                //    if (this.id === "next") {
-                //        id = "btnSignInB2cLoginPage";
-                //    }
-                //    else if (this.id === "createAccount") {
-                //        id = "btnSignUpB2cLoginPage";
-                //    }
-                //    else if (this.id === "forgotPassword") {
-                //        id = "btnForgotPasswordB2cLoginPage";
-                //    }
-                //    cc.saveTrackingLog('button', id, this.value);
-                //});
+                $("#forgotPassword,#createAccount").off().on('click', function () {
+                    var id = this.id;
+					var href = "#";
+                    if (this.id === "createAccount") {
+                        id = "btnSignUpB2cLoginPage";
+						href = decodeURIComponent(cc.getUrlParam('ccAppUrl')) + '/register';
+                    }
+                    else if (this.id === "forgotPassword") {
+                        id = "btnForgotPasswordB2cLoginPage";
+						href = decodeURIComponent(cc.getUrlParam('ccAppUrl')) + '/forgot';
+                    }
+                    cc.saveTrackingLog('button', id, this.value);
+					window.location.href = href;
+                });
             },
 
             saveTrackingLog: function (elementType, elementName, elementValue) {
