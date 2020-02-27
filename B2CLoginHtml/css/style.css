@@ -25,7 +25,7 @@ body, html {font-family: 'Roboto', sans-serif;font-size: 15px;color: #333E48;ove
 .login-form{margin-top: -220px;}
 .login-info{font-size: 20px;font-weight: 400;}
 .moreText {text-decoration: underline;}
-.buttons{display:inline-block;}
+.buttons{display:inline-block;margin-top:15px}
 .divider{display:none;}
 .create p{font-size:0;margin: 0;}
 #next{border-radius: 30px;font-size: 13px;padding: 0.65rem 1.25rem;text-transform: uppercase;letter-spacing: 1px;background: #0075C9;color: #fff;border: 0;}
@@ -35,7 +35,7 @@ body, html {font-family: 'Roboto', sans-serif;font-size: 15px;color: #333E48;ove
 #api p[role="alert"] {color: #ff0101;margin: 0 0 4px;font-weight: 600;font-size: 14px;}
 .create{position: relative;top: -39px;left: 0;width: auto;margin-left: 100px;}
 .localAccount{position:relative;}
-.working {margin-bottom: 40px;}
+
 
 /**helpline**/
 .browsername{display:block;color:#121416;}
@@ -49,7 +49,7 @@ body, html {font-family: 'Roboto', sans-serif;font-size: 15px;color: #333E48;ove
 .custom-container{max-width: 1300px;margin: 0 auto;padding: 0.8rem 1rem;}
 .divider{display:none;}
 #api .intro h2{font-size:0;}
-#api .error.itemLevel {position: absolute;color: red;top: 0;margin-top: -22px;}
+#api .error.itemLevel ,#api .error.pageLevel{position: absolute;color: red;top: 0;margin-top: -22px;}
 /* MOBILE LAYOUT (PORTRAIT/320PX) 
 ----------------------------------------------- */
 @media only screen and (max-width: 980px) {
