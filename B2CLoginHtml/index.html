@@ -22,10 +22,11 @@
 
 </head>
 <body>
+<div id="main-body" style="display:none">
     <!--Header start-->
     <header>
         <div class="custom-container text-lg-left text-center">
-            <img src="https://sdsccdevelopmenab49.blob.core.windows.net/b2c-signin-signout/images/footerLogo.png" alt="" />
+            <a id="lnkHeader" href="#"><img src="https://sdsccdevelopmenab49.blob.core.windows.net/b2c-signin-signout/images/footerLogo.png" alt="" /></a>
         </div>
     </header>
     <!--Header end-->
@@ -135,12 +136,15 @@
 
         $(document).ready(function () {
             cc.init();
+			 $("#main-body").show();
         });
 
         var cc = {
             init: function () {
                 $("#forgotPassword").attr('href', 'javascript:void(0)');
                 $("#createAccount").attr('href', 'javascript:void(0)');
+				$("#next").text("Login");
+				$("#createAccount").text("Register");
                 cc.bindEvents();
                 cc.initAppInsight();
             },
@@ -166,7 +170,7 @@
                     }
                     cc.saveTrackingLog('input', id, value);
                 });
-                $("#forgotPassword,#createAccount").off().on('click', function () {
+                $("#forgotPassword,#createAccount,#lnkHeader").off().on('click', function () {
                     var id = this.id;
 					var href = "#";
                     if (this.id === "createAccount") {
@@ -176,6 +180,10 @@
                     else if (this.id === "forgotPassword") {
                         id = "btnForgotPasswordB2cLoginPage";
 						href = decodeURIComponent(cc.getUrlParam('ccAppUrl')) + '/forgot';
+                    }
+					else if (this.id === "lnkHeader") {
+                        id = "btnLogoB2cLoginPage";
+						href = decodeURIComponent(cc.getUrlParam('ccAppUrl')) + '/home';
                     }
                     cc.saveTrackingLog('button', id, this.innerText);
 					window.location.href = href;
