@@ -1,0 +1,69 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+div, section, figure{padding:0; margin:0;}
+a {border:0; outline:none; -webkit-transition: all 200s ease-in-out; -moz-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out;color:#0075C9;}
+a:hover, a:focus{text-decoration:none; color:#0075c9;  outline-style: none;}
+img{max-width:100%;}
+.clear{clear:both}
+.clearfix:before,.clearfix:after{ display: table;  content: " ";}
+.clearfix:after { clear: both;}
+body, html {font-family: 'Roboto', sans-serif;font-size: 15px;color: #333E48;overflow-x:hidden;}
+/**banner**/
+.banner{background-image: url(https://sdsccdevelopmenab49.blob.core.windows.net/b2c-signin-signout/images/banner.png);background-repeat: no-repeat;position: relative;background-size: cover;height: 480px;}
+.text-yellow{color:#FFC20E;}
+.text-bold{font-weight:700;}
+.font-14{font-size:14px;}
+.loginpage-caption{font-weight:300;font-size: 40px;color: #393939;}
+
+/**login***/
+.login-card{box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.2);border-radius: 4px;/* padding: 30px !important; */}
+#api input[type="text"] , #api input[type="password"]{border: none;outline: none;height: calc(3em + .75rem + 2px);background-color: #E2E4E5;box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.16);border-radius: unset;width: 100%;padding: 0 12px;}
+#api label{display:none;}
+#api .entry-item{position:relative;margin-bottom: 28px;}
+#forgotPassword{position:absolute;top: 100%;font-size: 12px;left: 0;margin-top: 5px;}
+.forgotText {font-size: 12px;}
+.login-form{margin-top: -220px;}
+.login-info{font-size: 20px;font-weight: 400;}
+.moreText {text-decoration: underline;}
+.buttons{display:inline-block;margin-top:15px}
+.divider{display:none;}
+.create p{font-size:0;margin: 0;}
+#next{border-radius: 30px;font-size: 13px;padding: 0.65rem 1.25rem;text-transform: uppercase;letter-spacing: 1px;background: #0075C9;color: #fff;border: 0;}
+#createAccount , #createAccount1{border-radius: 30px;font-size: 13px;padding: 0.65rem 1.25rem;text-transform: uppercase;letter-spacing: 0px;background: #333E48;color: #fff;display: inline-block;}
+#createAccount:hover , #createAccount1:hover , #next:hover {-webkit-box-shadow: 0 1px 3px rgba(0,0,0, 0.4);-moz-box-shadow: 0 1px 3px rgba(0,0,0, 0.4);box-shadow: 0 1px 3px rgba(0,0,0, 0.4);-webkit-transition: box-shadow 200ms;-moz-transition: box-shadow 200ms;-o-transition: box-shadow 200ms;transition: box-shadow 200ms;color:#fff;}
+#next:focus{outline:0;}
+#api p[role="alert"] {color: #ff0101;margin: 0 0 4px;font-weight: 600;font-size: 14px;}
+.create{position: relative;top: -39px;left: 0;width: auto;margin-left: 100px;}
+.localAccount{position:relative;}
+
+
+/**helpline**/
+.browsername{display:block;color:#121416;}
+.browsers a{display:inline-block;}
+.browsers img {max-width: 50px;}
+.phhelp{font-size: 15px;color: #333E48;font-weight: 600;}
+
+/***footer**/
+.footer{background: #E3E5E4;}
+.copyright-text{font-size: 12px;color: #9EA2A0;}
+.custom-container{max-width: 1300px;margin: 0 auto;padding: 0.8rem 1rem;}
+.divider{display:none;}
+#api .intro h2{font-size:0;}
+#api .error.itemLevel ,#api .error.pageLevel{position: absolute;color: red;top: 0;margin-top: -22px;}
+/* MOBILE LAYOUT (PORTRAIT/320PX) 
+----------------------------------------------- */
+@media only screen and (max-width: 980px) {
+	.login-card{padding: 2em !important;}
+}
+
+@media only screen and (max-width: 767px) {
+	#createAccount1,#createAccount1 , #next{font-size: 13px;padding: 0.65rem 1rem;letter-spacing: 0px;}
+	.create{margin-left: 0;text-align: right;width: 120px;margin-left: 82px;}
+}
+@media only screen and (max-width: 500px) {
+	.login-form {margin-top: -150px;}
+	.login-card{padding:2em !important;}
+	.loginpage-caption{font-size:30px;}
+	.btncommon {padding: .6em 0.8em;font-size: 12px;}
+	
+}
