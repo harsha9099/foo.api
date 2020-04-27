@@ -1,0 +1,26 @@
+[
+  {
+    "AccountType": "Micro Lender",
+    "Rate": 1.8
+  },
+  {
+    "AccountType": "Retail",
+    "Rate": 2
+  },
+  {
+    "AccountType": "Personal Loan",
+    "Rate": 2
+  },
+  {
+    "AccountType": "Credit Card",
+    "Rate": 1.7
+  },
+  {
+    "AccountType": "Home Loan",
+    "Rate": 0.9
+  },
+  {
+    "AccountType": "Vehicle Loan",
+    "Rate": 1.2
+  }
+]

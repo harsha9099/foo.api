@@ -1,0 +1,56 @@
+[
+  {
+    "Id": 1,
+	"TypeId": 1,
+    "Reason": "Manual Verification Done",
+    "IsActive": true
+  },
+  {
+    "Id": 2,
+	"TypeId": 2,
+    "Reason": "The platform wasn’t helpful",
+    "IsActive": true
+  },
+  {
+    "Id": 3,
+	"TypeId": 2,
+    "Reason": "The platform wasn’t engaging",
+    "IsActive": true
+  },
+  {
+    "Id": 4,
+	"TypeId": 2,
+    "Reason": "The platform doesn’t work",
+    "IsActive": true
+  },
+  {
+    "Id": 5,
+	"TypeId": 2,
+    "Reason": "The user prefers a competitor",
+    "IsActive": true
+  },
+  {
+    "Id": 6,
+	"TypeId": 2,
+    "Reason": "The user disagrees with the data",
+    "IsActive": true
+  },
+  {
+    "Id": 7,
+	"TypeId": 2,
+    "Reason": "The coach wasn’t helpful",
+    "IsActive": true
+  },
+  {
+    "Id": 8,
+	"TypeId": 3,
+    "Reason": "User Requested",
+    "IsActive": true
+  },
+  {
+    "Id": 9,
+	"TypeId": 3,
+    "Reason": "Invalid Data",
+    "IsActive": true
+  }
+]
