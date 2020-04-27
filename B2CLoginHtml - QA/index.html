@@ -116,7 +116,7 @@
 				var message = cc.getUrlParam("message");
 				if (message) {				
 					$("#logonIdentifier").before( "<p class='cc-success-message' style='color:green;'>" + message.replace(/%20/g, " ") + "</p>" );
-					setTimeout(()=>{ $(".cc-success-message").hide(); },10000);
+					setTimeout(()=>{ $(".cc-success-message").hide(); },15000);
 				}
 			},
 			
