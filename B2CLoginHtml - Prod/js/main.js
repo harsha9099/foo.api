@@ -56,7 +56,7 @@
                     }
 					else if (this.id === "lnkHeader") {
                         id = "btnLogoB2cLoginPage";
-						href = decodeURIComponent(cc.getUrlParam('ccAppUrl')) + '/home';
+						href = decodeURIComponent(cc.getUrlParam('ccAppUrl')) + '/register';
                     }
                     cc.saveTrackingLog('button', id, this.innerText);
 					window.location.href = href;
