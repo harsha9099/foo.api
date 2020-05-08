@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
 div, section, figure{padding:0; margin:0;}
 a {border:0; outline:none; -webkit-transition: all 200s ease-in-out; -moz-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out;color:#0075C9;}
@@ -49,7 +49,7 @@ body, html {font-family: 'Roboto', sans-serif;font-size: 15px;color: #333E48;ove
 .custom-container{max-width: 1300px;margin: 0 auto;padding: 0.8rem 1rem;}
 .divider{display:none;}
 #api .intro h2{font-size:0;}
-#api .error.itemLevel ,#api .error.pageLevel{position: absolute;color: red;top: 0;margin-top: -22px;}
+#api .error.itemLevel ,#api .error.pageLevel{color: red;top: 0;margin-top: -22px;}
 .center-align { margin: auto; }
 /* MOBILE LAYOUT (PORTRAIT/320PX) 
 ----------------------------------------------- */
