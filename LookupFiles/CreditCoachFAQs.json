@@ -1,5 +1,10 @@
 [
   {
+    "Question": "What can I do if I disagree with the information on my Dashboard?",
+    "Answer": "The Sanlam dashboard provides you with an easy to understand, aggregated view of your credit profile based on information retrieved from the credit bureau. The credit bureau gets their information from your insurers and creditors. Discrepancies may arise due to timing and delays in the exchange of this information between credit bureaus and creditors. <br>Sanlam does not change your information once they receive it and if you disagree with the information that you see you should query it with the credit bureau directly. A Sanlam Coach can help guide you on how to do this.",
+    "IsActive":"true"
+  },
+  {
     "Question": "Why is it important to check your credit profile regularly?",
     "Answer": "<ul> <li>Every month, thousands of South Africans have accounts fraudulently opened in their names. It is your responsibility to check that this doesn’t happen to you.</li> <li>43% of South Africa’s 25 million credit-active consumers are behind on payments for at least one account. You might not be aware that you are behind on payments if you don’t regularly check your credit profile.</li> <li>15 000 South Africans log disputes with credit bureaus every month because they disagree with an entry on their credit record. You should check your credit profile often to ensure there are no faulty entries on your record. </li></ul>",
     "IsActive":"true"

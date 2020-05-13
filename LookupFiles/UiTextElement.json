@@ -53,7 +53,7 @@
     "RangeTo": 25,
     "ColorCode": "#F63434",
     "ScoreType": "VeryHighRisk",
-    "Description": "<h4 class=\"sal-text-caption d-sm-none d-md-block\">You are Very High Risk</h4><p class=\"sal-text-p\">Our calculations show you do not have much disposable income left to pay for your credit expenses.  If the income information we have is incorrect please enter the correct details in the customer maintenance section.  If they are correct you must try to settle some credit accounts to give you additional disposable income.  Start with the smallest ones first. Importantly, contact our coach to discuss your options.</p>"
+    "Description": "<h4 class=\"sal-text-caption d-md-block\">You are Very High Risk</h4><p class=\"sal-text-p\">Our calculations show you do not have much disposable income left to pay for your credit expenses.  If the income information we have is incorrect please enter the correct details in the customer maintenance section.  If they are correct you must try to settle some credit accounts to give you additional disposable income.  Start with the smallest ones first. Importantly, contact our coach to discuss your options.</p>"
   },
   {
     "Type": "MoneyLeftForExpenses",
@@ -61,7 +61,7 @@
     "RangeTo": 50,
     "ColorCode": "#F19044",
     "ScoreType": "HighRisk",
-    "Description": "<h4 class=\"sal-text-caption d-sm-none d-md-block\">You are High Risk</h4><p class=\"sal-text-p\">Our calculations show you do not have much disposable income left to pay for your credit expenses.  If the income information we have is incorrect please enter the correct details in the customer maintenance section.  If they are correct, you must try to settle some credit accounts to give you additional disposable income.  Start with the smallest ones first.  Importantly, contact our coach to discuss your options.</p>"
+    "Description": "<h4 class=\"sal-text-caption d-md-block\">You are High Risk</h4><p class=\"sal-text-p\">Our calculations show you do not have much disposable income left to pay for your credit expenses.  If the income information we have is incorrect please enter the correct details in the customer maintenance section.  If they are correct, you must try to settle some credit accounts to give you additional disposable income.  Start with the smallest ones first.  Importantly, contact our coach to discuss your options.</p>"
   },
   {
     "Type": "MoneyLeftForExpenses",
@@ -69,7 +69,7 @@
     "RangeTo": 75,
     "ColorCode": "#A5C15E",
     "ScoreType": "LowRisk",
-    "Description": "<h4 class=\"sal-text-caption d-sm-none d-md-block\">You are Low Risk</h4><p class=\"sal-text-p\">You should aim to have more than 60% of your income left after paying your credit accounts and our calculations show you have slightly less than this. If the income information we have is incorrect please enter the correct details in the customer maintenance section.  If they are correct, you must try to settle some credit accounts to give you additional disposable income.  Start with the smallest ones first.  Importantly, contact our coach to discuss your options.</p>"
+    "Description": "<h4 class=\"sal-text-caption d-md-block\">You are Low Risk</h4><p class=\"sal-text-p\">You should aim to have more than 60% of your income left after paying your credit accounts and our calculations show you have slightly less than this. If the income information we have is incorrect please enter the correct details in the customer maintenance section.  If they are correct, you must try to settle some credit accounts to give you additional disposable income.  Start with the smallest ones first.  Importantly, contact our coach to discuss your options.</p>"
   },
   {
     "Type": "MoneyLeftForExpenses",
@@ -77,7 +77,7 @@
     "RangeTo": 100,
     "ColorCode": "#30955F",
     "ScoreType": "VeryLowRisk",
-    "Description": "<h4 class=\"sal-text-caption d-sm-none d-md-block\">You are Very Low Risk</h4><p class=\"sal-text-p\">Well done! It looks like you have some disposable income available. Are you putting enough of this towards savings and investments? Speak to a coach if you'd like to discuss your options.</p>"
+    "Description": "<h4 class=\"sal-text-caption d-md-block\">You are Very Low Risk</h4><p class=\"sal-text-p\">Well done! It looks like you have some disposable income available. Are you putting enough of this towards savings and investments? Speak to a coach if you'd like to discuss your options.</p>"
   },
   {
     "Type": "SalaryTowardDebt",
@@ -85,7 +85,7 @@
     "RangeTo": 999999,
     "ColorCode": "#F63434",
     "ScoreType": "VeryHighRisk",
-    "Description": "<h4 class=\"sal-text-caption d-sm-none d-md-block\">You are Very High Risk</h4><p class=\"sal-text-p\">The information we have indicates that your monthly credit repayments as a percentage of your monthly income is very high and you are likely to be regarded as high risk by many credit providers.  You should aim to spend less than 40% of your monthly income on credit repayments.  Please call our coach who can help you with a free assessment.</p>"
+    "Description": "<h4 class=\"sal-text-caption d-md-block\">You are Very High Risk</h4><p class=\"sal-text-p\">The information we have indicates that your monthly credit repayments as a percentage of your monthly income is very high and you are likely to be regarded as high risk by many credit providers.  You should aim to spend less than 40% of your monthly income on credit repayments.  Please call our coach who can help you with a free assessment.</p>"
   },
   {
     "Type": "SalaryTowardDebt",
@@ -93,7 +93,7 @@
     "RangeTo": 80,
     "ColorCode": "#F19044",
     "ScoreType": "HighRisk",
-    "Description": "<h4 class=\"sal-text-caption d-sm-none d-md-block\">You are High Risk</h4><p class=\"sal-text-p\">Your credit position is not optimal. Ideally, you should aim to spend less than 40% of your income on credit repayments. Our coach can help you with a free assessment.</p>"
+    "Description": "<h4 class=\"sal-text-caption d-md-block\">You are High Risk</h4><p class=\"sal-text-p\">Your credit position is not optimal. Ideally, you should aim to spend less than 40% of your income on credit repayments. Our coach can help you with a free assessment.</p>"
   },
   {
     "Type": "SalaryTowardDebt",
@@ -101,7 +101,7 @@
     "RangeTo": 60,
     "ColorCode": "#F8D926",
     "ScoreType": "MediumRisk",
-    "Description": "<h4 class=\"sal-text-caption d-sm-none d-md-block\">You are Medium Risk</h4><p class=\"sal-text-p\">You should aim to spend less than 40% of your monthly income on credit repayment.  The information we have shows that you are slightly over this, but the good news is that you are almost there.  Our coach can help you with a free assessment over the phone. </p>"
+    "Description": "<h4 class=\"sal-text-caption d-md-block\">You are Medium Risk</h4><p class=\"sal-text-p\">You should aim to spend less than 40% of your monthly income on credit repayment.  The information we have shows that you are slightly over this, but the good news is that you are almost there.  Our coach can help you with a free assessment over the phone. </p>"
   },
   {
     "Type": "SalaryTowardDebt",
@@ -109,7 +109,7 @@
     "RangeTo": 40,
     "ColorCode": "#A5C15E",
     "ScoreType": "LowRisk",
-    "Description": "<h4 class=\"sal-text-caption d-sm-none d-md-block\">You are Low Risk</h4><p class=\"sal-text-p\">The information we have on you indicates that your monthly credit repayments as a percentage of your monthly income is reasonable and you should be able to afford the existing credit you have.  You should also consider additional investments, such as retirement annuities, to ensure you have sufficient savings when you retire. Please speak to our coach to discuss your options.</p>"
+    "Description": "<h4 class=\"sal-text-caption d-md-block\">You are Low Risk</h4><p class=\"sal-text-p\">The information we have on you indicates that your monthly credit repayments as a percentage of your monthly income is reasonable and you should be able to afford the existing credit you have.  You should also consider additional investments, such as retirement annuities, to ensure you have sufficient savings when you retire. Please speak to our coach to discuss your options.</p>"
   },
   {
     "Type": "SalaryTowardDebt",
@@ -117,31 +117,31 @@
     "RangeTo": 20,
     "ColorCode": "#30955F",
     "ScoreType": "VeryLowRisk",
-    "Description": "<h4 class=\"sal-text-caption d-sm-none d-md-block\">You are Very Low Risk</h4><p class=\"sal-text-p\">Our information indicates that your income as a percentage of your total credit repayments is good.  You should be in a healthy position and could possibly even afford more credit if the need arises.  Alternatively, consider investing in savings and/or retirement plans.  Speak to our coach to discuss your options.  It's a free service.</p>"
+    "Description": "<h4 class=\"sal-text-caption d-md-block\">You are Very Low Risk</h4><p class=\"sal-text-p\">Our information indicates that your income as a percentage of your total credit repayments is good.  You should be in a healthy position and could possibly even afford more credit if the need arises.  Alternatively, consider investing in savings and/or retirement plans.  Speak to our coach to discuss your options.  It's a free service.</p>"
+  },
+  {
+    "Type": "MonthlyInterestPayments",
+    "RangeFrom": 22,
+    "RangeTo": 120,
+    "ColorCode": "#F19044",
+    "ScoreType": "HighRisk",
+    "Description": "<h4 class=\"sal-text-caption d-md-block\">You are High Risk</h4><p class=\"sal-text-p\">Your credit is costing you a lot.  We suggest you try to settle your accounts with the highest interest rates first.  If have get extra cash you should put it towards paying off these accounts.  Speak to our coach to discuss your options - it’s a free service.</p>"
   },
   {
     "Type": "MonthlyInterestPayments",
     "RangeFrom": 16,
-    "RangeTo": 100,
-    "ColorCode": "#F19044",
-    "ScoreType": "HighRisk",
-    "Description": "<h4 class=\"sal-text-caption d-sm-none d-md-block\">You are High Risk</h4><p class=\"sal-text-p\">Your credit is costing you a lot.  We suggest you try to settle your accounts with the highest interest rates first.  If have get extra cash you should put it towards paying off these accounts.  Speak to our coach to discuss your options - it’s a free service.</p>"
-  },
-  {
-    "Type": "MonthlyInterestPayments",
-    "RangeFrom": 11,
-    "RangeTo": 15,
+    "RangeTo": 21,
     "ColorCode": "#F8D926",
     "ScoreType": "MediumRisk",
-    "Description": "<h4 class=\"sal-text-caption d-sm-none d-md-block\">You are Medium Risk</h4><p class=\"sal-text-p\">It looks like you are paying a reasonable amount on interest, when compared with your peers. It is, however, important to try and settle the accounts with the highest interest rates first, so if you have disposable income at the end of the month try to put it towards paying off your accounts.  Also speak to our coach to discuss your options.</p>"
+    "Description": "<h4 class=\"sal-text-caption d-md-block\">You are Medium Risk</h4><p class=\"sal-text-p\">It looks like you are paying a reasonable amount on interest, when compared with your peers. It is, however, important to try and settle the accounts with the highest interest rates first, so if you have disposable income at the end of the month try to put it towards paying off your accounts.  Also speak to our coach to discuss your options.</p>"
   },
   {
     "Type": "MonthlyInterestPayments",
     "RangeFrom": 0,
-    "RangeTo": 10,
+    "RangeTo": 15,
     "ColorCode": "#30955F",
     "ScoreType": "LowRisk",
-    "Description": "<h4 class=\"sal-text-caption d-sm-none d-md-block\">You are Low Risk</h4><p class=\"sal-text-p\">The interest you are paying relative to your peers looks reasonable.  If you want to consult a coach on how to reduce this further, or how to invest wisely, please call them.  It's a free service.</p>"
+    "Description": "<h4 class=\"sal-text-caption d-md-block\">You are Low Risk</h4><p class=\"sal-text-p\">The interest you are paying relative to your peers looks reasonable.  If you want to consult a coach on how to reduce this further, or how to invest wisely, please call them.  It's a free service.</p>"
   },
   {
     "Type": "TotalOverdueAmount",
@@ -149,7 +149,7 @@
     "RangeTo": 99999999,
     "ColorCode": "#F63434",
     "ScoreType": "VeryHighRisk",
-    "Description": "<h4 class=\"sal-text-caption d-sm-none d-md-block\">You are Very High Risk</h4><p class=\"sal-text-p\">Your overdue amount on credit accounts is high and this has started to affect your credit score negatively. Credit providers are likely to see you as high risk and therefore access to future credit may either be denied or it may be very expensive.  Your priority is to make sure that you pay any overdue amounts as soon as possible.  This will positively affect your score over time. Chat to our coach to discuss your options. It's a free service we offer.</p>"
+    "Description": "<h4 class=\"sal-text-caption d-md-block\">You are Very High Risk</h4><p class=\"sal-text-p\">Your overdue amount on credit accounts is high and this has started to affect your credit score negatively. Credit providers are likely to see you as high risk and therefore access to future credit may either be denied or it may be very expensive.  Your priority is to make sure that you pay any overdue amounts as soon as possible.  This will positively affect your score over time. Chat to our coach to discuss your options. It's a free service we offer.</p>"
   },
   {
     "Type": "TotalOverdueAmount",
@@ -157,7 +157,7 @@
     "RangeTo": 501,
     "ColorCode": "#F19044",
     "ScoreType": "HighRisk",
-    "Description": "<h4 class=\"sal-text-caption d-sm-none d-md-block\">You are High Risk</h4><p class=\"sal-text-p\">You have some overdue accounts. Having overdue accounts affects your credit score negatively and you may be seen as high risk by credit providers, which could prevent you from obtaining additional credit. The good news is that if you catch up on all overdue amounts and keep these up to date, your credit score can improve. Chat to our coach if you'd like to discuss your options.</p>"
+    "Description": "<h4 class=\"sal-text-caption d-md-block\">You are High Risk</h4><p class=\"sal-text-p\">You have some overdue accounts. Having overdue accounts affects your credit score negatively and you may be seen as high risk by credit providers, which could prevent you from obtaining additional credit. The good news is that if you catch up on all overdue amounts and keep these up to date, your credit score can improve. Chat to our coach if you'd like to discuss your options.</p>"
   },
   {
     "Type": "TotalOverdueAmount",
@@ -165,5 +165,5 @@
     "RangeTo": 0,
     "ColorCode": "#A5C15E",
     "ScoreType": "LowRisk",
-    "Description": "<h4 class=\"sal-text-caption d-sm-none d-md-block\">You are Low Risk</h4><p class=\"sal-text-p\">Well done! You are up to date on all your credit accounts.  Feel free to chat to a coach for further information on your credit profile.</p>"
+    "Description": "<h4 class=\"sal-text-caption d-md-block\">You are Low Risk</h4><p class=\"sal-text-p\">Well done! You are up to date on all your credit accounts.  Feel free to chat to a coach for further information on your credit profile.</p>"
   }]
