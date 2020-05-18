@@ -1,0 +1,97 @@
+[
+  {
+    "Id": 1,
+    "Type": "Afterhours call'",
+    "IsActive": true
+  },
+  {
+    "Id": 2,
+    "Type": "CR - Adverse Information",
+    "IsActive": true
+  },
+  {
+    "Id": 3,
+    "Type": "CR - Credit Score",
+    "IsActive": true
+  },
+  {
+    "Id": 4,
+    "Type": "CR - Declined credit",
+    "IsActive": true
+  },
+  {
+    "Id": 5,
+    "Type": "CSU - Secured Services",
+    "IsActive": true
+  },
+  {
+    "Id": 6,
+    "Type": "CSU - Reality",
+    "IsActive": true
+  },
+  {
+    "Id": 7,
+    "Type": "CSU - General",
+    "IsActive": true
+  },
+  {
+    "Id": 8,
+    "Type": "CSU - COVID 19",
+    "IsActive": true
+  },
+  {
+    "Id": 9,
+    "Type": "Debt Counselling",
+    "IsActive": true
+  },
+  {
+    "Id": 10,
+    "Type": "Ins - Funeral",
+    "IsActive": true
+  },
+  {
+    "Id": 11,
+    "Type": "Ins - Income Protection",
+    "IsActive": true
+  },
+  {
+    "Id": 12,
+    "Type": "Ins - Life",
+    "IsActive": true
+  },
+  {
+    "Id": 13,
+    "Type": "Ins - Medical",
+    "IsActive": true
+  },
+  {
+    "Id": 14,
+    "Type": "Ins - Short Term",
+    "IsActive": true
+  },
+  {
+    "Id": 15,
+    "Type": "Credit - Consolidation Loan",
+    "IsActive": true
+  },
+  {
+    "Id": 16,
+    "Type": "Credit - Credit Card",
+    "IsActive": true
+  },
+  {
+    "Id": 17,
+    "Type": "Credit - Housing Finance",
+    "IsActive": true
+  },
+  {
+    "Id": 18,
+    "Type": "Credit - Personal Loan",
+    "IsActive": true
+  },
+  {
+    "Id": 19,
+    "Type": "Credit - Vehicle Finance",
+    "IsActive": true
+  }
+]

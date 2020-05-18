@@ -1,0 +1,92 @@
+[
+  {
+    "Id": 1,
+    "Type": "Abandoned Chats",
+    "IsActive": true
+  },
+  {
+    "Id": 2,
+    "Type": "CR-Credit Score",
+    "IsActive": true
+  },
+  {
+    "Id": 3,
+    "Type": "CR- Account Information",
+    "IsActive": true
+  },
+  {
+    "Id": 4,
+    "Type": "CR – Escalate to Vericred",
+    "IsActive": true
+  },
+  {
+    "Id": 5,
+    "Type": "CR – Adverse Information",
+    "IsActive": true
+  },
+  {
+    "Id": 6,
+    "Type": "CR – Declined Credit",
+    "IsActive": true
+  },
+  {
+    "Id": 7,
+    "Type": "Transfer - SPL",
+    "IsActive": true
+  },
+  {
+    "Id": 8,
+    "Type": "Transfer - DebtBusters",
+    "IsActive": true
+  },
+  {
+    "Id": 9,
+    "Type": "Transfer - SD - Life",
+    "IsActive": true
+  },
+  {
+    "Id": 10,
+    "Type": "Transfer - SD - Funeral",
+    "IsActive": true
+  },
+  {
+    "Id": 11,
+    "Type": "Transfer - SD - Income Protection",
+    "IsActive": true
+  },
+  {
+    "Id": 12,
+    "Type": "Transfer - SD - Medical",
+    "IsActive": true
+  },
+  {
+    "Id": 13,
+    "Type": "Transfer - SD - Short Term",
+    "IsActive": true
+  },
+  {
+    "Id": 14,
+    "Type": "Call Back",
+    "IsActive": true
+  },
+  {
+    "Id": 15,
+    "Type": "Sanlam Customer Care – Secure Service",
+    "IsActive": true
+  },
+  {
+    "Id": 16,
+    "Type": "Sanlam Customer Care – Reality",
+    "IsActive": true
+  },
+  {
+    "Id": 17,
+    "Type": "Sanlam Customer Care – Customer Services",
+    "IsActive": true
+  },
+  {
+    "Id": 18,
+    "Type": "Afterhours Chats",
+    "IsActive": true
+  }
+]

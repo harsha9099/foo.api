@@ -2,101 +2,121 @@
   {
     "Question": "What can I do if I disagree with the information on my Dashboard?",
     "Answer": "The Sanlam dashboard provides you with an easy to understand, aggregated view of your credit profile based on information retrieved from the credit bureau. The credit bureau gets their information from your insurers and creditors. Discrepancies may arise due to timing and delays in the exchange of this information between credit bureaus and creditors. <br>Sanlam does not change your information once they receive it and if you disagree with the information that you see you should query it with the credit bureau directly. A Sanlam Coach can help guide you on how to do this.",
-    "IsActive":"true"
+    "IsActive":"true",
+    "SortOrder": 1
   },
   {
     "Question": "Why is it important to check your credit profile regularly?",
     "Answer": "<ul> <li>Every month, thousands of South Africans have accounts fraudulently opened in their names. It is your responsibility to check that this doesn’t happen to you.</li> <li>43% of South Africa’s 25 million credit-active consumers are behind on payments for at least one account. You might not be aware that you are behind on payments if you don’t regularly check your credit profile.</li> <li>15 000 South Africans log disputes with credit bureaus every month because they disagree with an entry on their credit record. You should check your credit profile often to ensure there are no faulty entries on your record. </li></ul>",
-    "IsActive":"true"
+    "IsActive":"true",
+    "SortOrder": 2
   },
   {
     "Question": "Who uses my credit score and why?",
     "Answer": "Prospective lenders and credit providers use your credit score to determine your ability to repay them. The credit score is normally determined by your payment history, the total debt owed, the length of time you have had debt and the number of recent credit applications. Based on your credit score, you will either be granted or denied credit in the form of loans, credit cards, bonds, store accounts and even cellphone contracts.",
-    "IsActive":"true"
+    "IsActive":"true",
+    "SortOrder": 3
   },
   {
     "Question": "How can I maintain or improve my credit score?",
     "Answer": "The best way to improve a poor credit score, or maintain a good one, is to pay off your debts on time, in other words, to pay what is due on or before the due date. Try to even pay more than what is required and make sure you never miss a single payment. Also only use debt for large and indispensable items (for example, home or car loans).",
-    "IsActive":"true"
+    "IsActive":"true",
+    "SortOrder": 4
   },
   {
     "Question": "Why is my credit score different on other reports?",
     "Answer": "Different companies use different credit bureaus to calculate credit scores. However, all the bureaus track your loan repayment history and debt to work out your score, so your credit score on your Sanlam Credit Profile shouldn’t differ too vastly from other scores.",
-    "IsActive":"true"
+    "IsActive":"true",
+    "SortOrder": 5
   },
   {
     "Question": "What is a credit score and a credit report?",
     "Answer": "A <b>credit score</b> is a value that represents your history of punctual repayments on credit accounts, but also the total debt owed, the length of time you have had debt and the number of recent credit applications. Late payments, a high number of credit applications, a high value of debt, and time will affect your score negatively. When it comes to time, normally the longer you have credit, the better. <br> A <b>credit report</b> is a more comprehensive summary of your credit history and credit score, detailing when and where you have applied for credit in the past 24 months, the current balance of your credit lines and the monthly instalment. It will also highlight if you have had a judgment or a default (this is a written off account). ",
-    "IsActive":"true"
+    "IsActive":"true",
+    "SortOrder": 6
   },
   {
     "Question": "How do I improve my credit score?",
     "Answer": "You can improve your credit score by paying off your debts on time and never missing monthly payments. Also remember not to use debt for smaller purchases – it should be reserved for larger, essential items. Sign up to receive your updated Sanlam Credit Profile every month. Use the information in this profile to see where you can cut out unnecessary credit. A credit coach is also on hand to help you, if necessary.",
-    "IsActive":"true"
+    "IsActive":"true",
+    "SortOrder": 7
   },
   {
     "Question": "What are the benefits of having a good credit score?",
     "Answer": "A good credit score increases your likelihood of being offered credit when you apply for it (for example, a bond, loan, credit card, vehicle finance or a cellphone contract) and also gives you access to lower interest rates. A good credit score could also benefit you when applying for a job, as the National Credit Act allows employers to check a candidate’s credit status.",
-    "IsActive":"true"
+    "IsActive":"true",
+    "SortOrder": 8
   },
   {
     "Question": "What affects my credit score?",
     "Answer": "Your credit score is affected by how much debt you have and how you have repaid debt in the past. You gain points for paying off debt on time, and lose points for any missed or late payments.",
-    "IsActive":"true"
+    "IsActive":"true",
+    "SortOrder": 9
   },
   {
     "Question": "How can I protect myself online?",
     "Answer": "Transacting online can be risky. Here are some tips to keep your money out of the hands of fraudsters: <br> <ul> <li>Never divulge your financial information over the phone or via e-mail. </li> <li>Don’t access secure websites (for example, your bank or online investment portfolio) via public Wi-Fi. </li> <li>Don’t choose obvious passwords, such as your date of birth or the name of a pet. </li> <li>Don’t save your card information on shopping sites .</li> <li>Make sure your bank uses a two-step verification process. This means you will have to enter a one-time password that it sent to a mobile device before a transaction can go through. </li> <li>Before entering any personal information, check whether the website concerned has an SSL certificate. If the URL starts with https:// (and not just http://) then the information you enter on the website is encrypted and far more secure.</li> <li>Don’t click on hyperlinks from sources you do not know, no matter how enticing these may be.</li> </ul>",
-    "IsActive":"true"
+    "IsActive":"true",
+    "SortOrder": 10
   },
   {
     "Question": "What are coaches and how can they help me?",
     "Answer": "A coach is a personal finance coach who is able to complete a full debt assessment for you and then advises you on how to improve your credit status. They can also help you eliminate incorrect credit information and advise you on how to build a good credit record.",
-    "IsActive":"true"
+    "IsActive":"true",
+    "SortOrder": 11
   },
   {
     "Question": "What is debt counselling?",
     "Answer": "Debt counselling is a process whereby a third party takes over the management of all your debts, and negotiates lower interest rates with your credit providers. Your monthly debt repayments will be reduced, as interest rates are renegotiated to a lower amount. An advantage of this is reduced monthly instalments, freeing up disposable income for use elsewhere. Debt counselling consolidates all your debt repayments to one amount; therefore, you only have to make one monthly payment to a payment distribution agency. When you go under debt counselling, you cannot access credit until the debt is paid (other than a home loan which takes much longer to pay off).",
-    "IsActive":"true"
+    "IsActive":"true",
+    "SortOrder": 12
   },
   {
     "Question": "Why is it important to know your credit score?",
     "Answer": "It’s important to keep track of your credit score so that you can query any incorrect listings. If the information on your credit report is incorrect, you can report this and it will be changed. If you have a weak credit score, this knowledge will empower you to make changes to improve your credit score so that you can qualify for credit and better interest rates in the future.",
-    "IsActive":"true"
+    "IsActive":"true",
+    "SortOrder": 13
   },
   {
     "Question": "What can I learn from my credit report?",
     "Answer": "Your credit report shows the status of your accounts and whether they are closed, paid up, in arrears or written off. A credit report will also show where and when you have opened a credit account and will show the balance outstanding and the monthly instalment. It will also highlight any court record information, such as judgments.",
-    "IsActive":"true"
+    "IsActive":"true",
+    "SortOrder": 14
   },
   {
     "Question": "Why do credit providers look at my credit score before granting credit?",
     "Answer": "Credit providers want to gauge their level of risk when offering you credit. If you have a good credit score, it poses less of a risk to them and they will be more likely to grant you more credit and better interest rates. If your credit score flags you as a risky borrower, they will either deny you credit or substantially limit the amount of credit you can apply for.",
-    "IsActive":"true"
+    "IsActive":"true",
+    "SortOrder": 15
   },
   {
     "Question": "What are the benefits of a good credit score?",
     "Answer": "A good credit score gives you access to more credit (in other words, loans of higher amounts) at lower interest rates. You will also appear more attractive to potential employers, as they can access your credit score when you apply for a job. ",
-    "IsActive":"true"
+    "IsActive":"true",
+    "SortOrder": 16
   },
   {
     "Question": "If I have a bad score, does it mean I cannot get credit? Can I improve it? How?",
     "Answer": "If you have a bad credit score, you are unlikely to be offered more credit by credit providers. However, you can improve your credit score by paying off your existing debt on time, and as quickly as possible. Once you have established a history of paying off debt on time, your credit score will improve and you are more likely to be offered new credit in the future. Just make sure you keep up with your payments in order to maintain your good score.",
-    "IsActive":"true"
+    "IsActive":"true",
+    "SortOrder": 17
   },
   {
     "Question": "If I’m over-indebted, what should I do?",
     "Answer": "You may be eligible for a consolidation loan to pay off all your outstanding debts. Call a Sanlam Credit Coach at +27 86 006 1058 and let them assist you in applying for this loan. <br> However, if you have a low credit record, you may have to opt for debt counselling, where a third party takes over your finances and makes arrangements with your different credit providers.",
-    "IsActive":"true"
+    "IsActive":"true",
+    "SortOrder": 18
   },
   {
     "Question": "What is meant by financial planning? Who does it and how can it help me?",
     "Answer": "Financial planning helps you to manage your finances in such a way that you can achieve your life goals. Sound financial planning can help you pay for your children’s education, purchase a home and retire comfortably. Sanlam has many qualified financial planners (<a href='https://www.sanlam.co.za/personal/financialplanning/Pages/choosing-a-financial-planner.aspx'>https://www.sanlam.co.za/personal/financialplanning/Pages/choosing-a-financial-planner.aspx</a>) who can help you make the best financial decisions for your future.",
-    "IsActive":"true"
+    "IsActive":"true",
+    "SortOrder": 19
   },
   {
     "Question": "I don’t buy on credit – why should I be interested in my credit score?",
     "Answer": "A good credit score is important regardless of whether or not you have debt. Firstly, it’s important to know what your credit score is so that you can query any possible mistakes with your listing. Secondly, a good credit score will allow you to apply for credit in the future with confidence, and also makes you more attractive to prospective employers, as they can look up your credit score when you apply for a job. To get a good credit score, you do need to have some credit – make sure this is paid on time every month and your credit score will improve.",
-    "IsActive":"true"
+    "IsActive":"true",
+    "SortOrder": 20
   }
 ]
